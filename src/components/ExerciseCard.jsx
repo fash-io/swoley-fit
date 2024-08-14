@@ -6,7 +6,7 @@ export default function ExerciseCard(props) {
   const [setsCompleted, setSetsCompleted] = useState(0);
 
   function handleSetIncrement() {
-    setSetsCompleted((setsCompleted + 1) % 5 )
+    setSetsCompleted((setsCompleted + 1) % 6 )
   }
 
   return (
